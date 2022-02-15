@@ -1,0 +1,28 @@
+IP ADDRESS
+
+unique IP Address - string of numbers gor eg. 655.765.222.110
+
+
+
+
+X        Y        Z
+me      you      other
+		(host)
+	     xyz.com
+I we want to access xyz.com, it will search for
+the IP address of Y system.
+
+
+DNS Server - Domain name server 
+website name: Ip Address 
+xyz.com -> domain
+each website can have 2-3 website ip addreses.
+
+Local host and port number 
+localhost = domain on the web , but a special tyoe of domain 
+localhostip = 127.0.0.1 
+it is pointing to your own computer.
+also known as loopback Ip address.          
+
+Port - doors in a computer. 
+https request port number = 443
