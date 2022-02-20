@@ -1,0 +1,5 @@
+benefits : 
+1. syntax simple for write
+2. code readibility
+3. update
+
