@@ -22,5 +22,8 @@ app.use(function(req,res){
 	res.sendFile('./views/404.html',{root:__dirname});
 	res.status(404);
 })
+//// UPDATED HTTP METHODS // 
+
+
 
 app.listen(3000,()=>console.log("Server Statretd"));
