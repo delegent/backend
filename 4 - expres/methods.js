@@ -10,7 +10,7 @@ app.listen(3000);
 
 
 
-let user = {};
+let users = {};
 
 app.get('/user',function(req,res){
 	res.send(user);
@@ -31,6 +31,15 @@ app.patch('/user',function(req,res){
 	console.log(
 		req.body
 	);
+
+// update data in users object\
+let updatedData = req.body;
+for(val in updatedData){
+users[val] = updatedData[val];
+}
+		
+
+
 	res.json(
 		{
 			"message":"data recieved successfully"
