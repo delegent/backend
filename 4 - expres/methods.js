@@ -29,7 +29,7 @@ let users = [
 
 app.get('/user',function(req,res){
 	console.log(req.query)
-	res.send(users);v
+	res.send(users);
 })
 
 

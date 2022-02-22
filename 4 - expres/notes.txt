@@ -25,6 +25,18 @@ Hece we use it to filter data.
 amazon.in/?iphone=13&&gb=256
 
 
+// REST API
+API - APPLICATION PROGRAMMABLE INTERFACE
+a medium to contact betwwen multiple softwares, db and etc..
+commmunication multiple platform
+language independent
+
+Rest APi?
+the api within the set of rules and discipline is Rest API
+Representational State Transfer.
+Rules:
+1. Responce should be same
+
 
 
 
