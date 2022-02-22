@@ -3,3 +3,45 @@ benefits :
 2. code readibility
 3. update
 
+
+
+
+
+// parameters and queries 
+/user/user-name
+/user/someone
+this is the bad because there is going to be very bad.
+
+fb.com/:id 
+this is params - i.e., a type of a variable.
+parameter - as it is db me data leke search krke aate h.
+
+Queries
+
+amazon.in/iphone=13,256GB 
+
+Hece we use it to filter data.
+
+amazon.in/?iphone=13&&gb=256
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

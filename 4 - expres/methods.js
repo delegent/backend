@@ -10,10 +10,26 @@ app.listen(3000);
 
 
 
-let users = {};
+let users = [
+	{
+		'id':1,
+		'name':'Anubhav'
+	},
+	{
+		'id':2,
+		'name':'Samar'
+	},
+	{
+
+		'id':3,
+		"name":"Vaibhav"
+
+	}
+];
 
 app.get('/user',function(req,res){
-	res.send(user);
+	console.log(req.query)
+	res.send(users);v
 })
 
 
@@ -32,6 +48,7 @@ app.patch('/user',function(req,res){
 		req.body
 	);
 
+
 // update data in users object\
 let updatedData = req.body;
 for(val in updatedData){
@@ -47,6 +64,16 @@ users[val] = updatedData[val];
 	)
 })
 
+
+
+/// params
+app.get('/user/:userName',function(req,res){
+	console.log(req.params.userName);
+	
+	// console.log(req.params.id);
+	res.json({"data recieved":req.params.userName});
+
+})
 
 
 
