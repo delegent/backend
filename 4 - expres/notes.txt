@@ -37,6 +37,8 @@ Representational State Transfer.
 Rules:
 1. Responce should be same
 
+GET POST PUT PATCH DELETE
+
 
 
 
