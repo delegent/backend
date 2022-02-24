@@ -35,9 +35,14 @@ Rest APi?
 the api within the set of rules and discipline is Rest API
 Representational State Transfer.
 Rules:
-1. Responce should be same
+1. Responce should be same, irrespective of request platform.
+2. Routes should be named on the basis of nouns.
+i.e, name, place animal thing.
+3. WE SHOULD use HTTP Methods for doing operations on these routes.
+app.get().post().patch().delete() 
+4. Data should be always in json format. 
+5. API's should be stateless.
 
-GET POST PUT PATCH DELETE
 
 
 
