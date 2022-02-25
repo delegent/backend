@@ -26,6 +26,14 @@ let users = [
 
 	}
 ];
+ // mounting 
+const userRouter = express.Router();
+app.use('/user',userRouter);
+userRouter.route(/)
+.get(getUser)
+.post(postUser)
+.patch(updateUser)
+.delete(deleteUser)
 
 app.get('/user',function(req,res){
 	console.log(req.query)
@@ -76,6 +84,21 @@ app.get('/user/:userName',function(req,res){
 })
 
 
+function getUser(){
+
+}
+
+function postUser(){
+
+}
+
+function updateUser(){
+
+}
+
+function deleteUser(){
+
+}
 
 
 
