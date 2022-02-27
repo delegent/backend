@@ -17,6 +17,16 @@
 		<button>Signup</button>
 	</form>
 	
-	<script src=""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+		let btn = document.querySelector('button');
+		btn.addEventListener('click',async function(e){
+			let email = document.querySelector('input[type="email"]').value;
+			let name = document.querySelector('input[type="text"]').value;
+			let password = document.querySelector('input[type="password"]').value;
+
+			let res = await axios.post('/auth/signup', {email, name, password})
+		})
+	</script>
 </body>
 </html>

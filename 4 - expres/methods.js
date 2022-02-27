@@ -14,9 +14,16 @@ route('/signup')
 .post(postSignUp)
 
 function getSignUp(req,res){
-	res.sendFile('');
+	res.sendFile('/public/index.html',{root:__dirname});
 }
 
+function postSignUp(req,res){
+	let data = req.body;
+	res.json({
+		message:"signed up",
+		data:data
+	});
+}
 
 
 app.listen(3000);
